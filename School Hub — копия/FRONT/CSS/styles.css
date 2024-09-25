@@ -1,0 +1,522 @@
+
+
+
+
+/* CSS  */
+
+
+
+                /* BASE */
+
+
+                /*body {
+                    
+                    margin: 0;
+                    padding: 0;
+                    height: 1200px;
+
+                    overflow-y: scroll;
+                    
+                    font-family: "Play", sans-serif;
+                    font-weight: 400;
+                    font-style: normal;
+                }
+                
+                header {
+                    background-image: linear-gradient(to bottom, #176ca5, #c8e7ff);
+                    
+                    text-shadow: 5px 5px 6px rgba(0, 0, 0, 0.3);
+                    color: white;
+                    padding: 1rem;
+                    text-align: center;
+                    
+                        font-family: "Comfortaa", sans-serif;
+                        font-optical-sizing: auto;
+                    
+                }
+                
+                nav {
+                    
+                    background-color: #f0f2f3;
+                    overflow: hidden;
+                }
+                
+                nav ul {
+                    list-style-type: none;
+                    margin: 0;
+                    padding: 0;
+                    text-align: center;
+                    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+
+                    font-family: "Comfortaa", sans-serif;
+                        font-optical-sizing: auto;
+                }
+                
+                nav ul li {
+                    display: inline;
+                }
+                
+                nav ul li a {
+                    display: inline-block;
+                    color: white;
+                    text-align: center;
+                    padding: 14px 20px;
+                    text-decoration: none;
+
+                    font: inherit;
+                    font-size: 17.5px;
+                }
+                
+                nav ul li a:hover {
+                    background-color: #88A9C3;
+                }
+                
+                main {
+                    padding: 20px;
+                }
+                
+                footer {
+                    background-color: #f0f2f3;
+                    color: rgb(2, 8, 20);
+                    text-align: center;
+                    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+                    padding: 1rem;
+                    position: fixed;
+                    width: 100%;
+                    bottom: 0;
+
+                    z-index: 10;
+
+                }
+                
+                #home {
+                    margin-left: 20px;
+                    margin-bottom: 20px;
+                    font-style: normal;
+                    font-size: 30px;
+                } */
+
+
+
+            /*TRUMP PATTERN*/
+
+
+            /* Загальні налаштування */
+body {
+    margin: 0;
+    font-family: "Play", sans-serif;
+    color: #333;
+    background-color: #eaeef1;
+    line-height: 1.6;
+}
+
+/* Стиль для заголовка */
+header {
+    background-color: #162952;
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+    font-family: "Montserrat", sans-serif;
+    font-size: 2rem;
+}
+
+/* Навігаційне меню */
+nav {
+    background-color: #ffffff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #002D72;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px 20px;
+}
+
+nav ul li a:hover {
+    color: #FF4500;
+}
+
+/* Стиль для секцій */
+main {
+    padding: 20px;
+}
+
+.company-by {
+    font-size: 2rem;
+    color: #bbcfec;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #002D72;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+article {
+    margin-bottom: 40px;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h3 {
+    color: #FF4500;
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 1rem;
+    color: #666;
+}
+
+.footer-text {
+    font-size: 1.25rem;
+    color: #ffffff;
+    font-family: "Montserrat", sans-serif;
+}
+
+/* Заклик до дії */
+#get-involved {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.cta-button {
+    width: 50%;
+    margin: 0 auto;
+
+    background-color: #FF4500;
+    color: white;
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cta-button-div {
+    width: 60%;
+    margin-left: 38%;
+}
+
+.cta-button:hover {
+    background-color: #002D72;
+}
+
+/* Футер */
+footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
+    border-top: 2px solid #ddd;
+}
+footer h3 {
+    margin-bottom: 10px;
+    color: #333;
+}
+footer p {
+    margin: 5px 0;
+    color: #666;
+}
+footer a {
+    color: #007bff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+footer .footer-links {
+    margin-top: 15px;
+}
+footer .copyright {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #888;
+}
+
+
+
+
+
+
+                .company_logo {
+                    width: 100px; /* Розмір логотипу */
+                    height: auto;
+                    position: absolute;
+                    left: 50%;
+                    transform: translateX(-50%);
+                    top: 10px; /* Відступ від верху */
+                
+                }
+
+                .image_logo img {
+
+                    position: absolute;
+                    margin-left: 1310px;
+                    margin-top: -675px;
+                
+                    width: 500px; 
+                    height: auto;
+                    border-radius: 20px;
+                   
+                }
+                
+
+
+        /* BASE */
+
+
+
+
+
+        /*HOME PAGE*/
+
+#description {
+    width: 66%;
+    margin-left: 15px;
+    margin-bottom: 50px;
+    font-style: normal;
+    font-size: 22px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.catalog-services li {
+    margin-bottom: 10px; /* Відступ між елементами списку */
+}
+
+.global-projects {
+    background-color: #ffffff;
+}
+
+
+.platform-section {
+    max-width: 800px; /* Максимальна ширина секції */
+    margin: 20px auto; /* Центрування секції */
+    padding: 20px;
+    background-color: #fff; /* Білий фон для секції */
+    border-radius: 8px; /* Закруглені кути */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Тінь для глибини */
+}
+.platform-section h1 {
+    text-align: center;
+    color: #333; /* Колір заголовка */
+}
+.platform-item {
+    margin: 15px 0; /* Відступи між пунктами */
+    padding: 15px;
+    border: 1px solid #ddd; /* Рамка для кожного пункту */
+    border-radius: 5px; /* Закруглені кути для пунктів */
+    transition: background-color 0.3s; /* Плавний перехід */
+}
+.platform-item:hover {
+    background-color: #f1f1f1; /* Колір фону при наведенні */
+}
+.platform-item h2 {
+    margin: 0; /* Удалення відступу у заголовка пункту */
+    color: #007bff; /* Колір заголовка пункту */
+}
+.platform-item p {
+    margin: 5px 0 0; /* Відступи для тексту пункту */
+    color: #666; /* Колір тексту */
+}
+
+    /*HOME PAGE*/
+
+
+
+
+                                       /*A.U. PAGE*/
+
+                                       .description {
+                                        width: 66%;
+                                        margin-left: 15px;
+                                        margin-bottom: 175px;
+                                        font-style: normal;
+                                        font-size: 22px;
+                                        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+                                    }
+
+                                       .contact-info li {
+                                        margin-bottom: 10px; /* Відступ між елементами списку */
+                                    }
+                                    
+    .image_qr_code img {
+
+        max-height: calc(90vh - 90px);
+        margin-bottom: 20px;
+
+        position: absolute;
+        top: 525px;
+        left: 505px;
+
+        width: 350px;
+        height: auto;
+        border-radius: 7.5px;
+
+    }
+
+    /*A.U. PAGE*/
+
+
+
+
+                                        /*SERVICES PAGE*/
+
+    main {
+        padding: 20px;
+
+        position: relative;
+
+        min-height: calc(100vh - 200px)
+    }
+
+    #descS {
+        width: 50%;
+        margin-left: 15px;
+        margin-bottom: 50px;
+        font-style: normal;
+        font-size: 22px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    /*.image_services img {
+
+        position: absolute;
+        top: 550px;
+        right: 80px;
+
+        width: 400px; 
+        height: auto;
+    }*/
+
+
+
+    .form-container {
+
+        position: absolute;
+        top: 50px;
+        right: 175px;
+
+        border: 1px solid #b4b4b4;
+        padding: 20px;
+        margin: 20px 0;
+        border-radius: 5px;
+        background-color: #e0e0e0;
+        width: 250px;
+        height: 200px; 
+        display: flex;
+        flex-direction: column;
+    }       
+
+
+            .Consult-cont {
+            position: absolute;
+            top: 30px;
+            left: 1000px;
+
+            border: 1px solid #ddd;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+            background-color: #ceffd8;
+            width: 275px;
+            height: 125px;  
+            display: flex;
+            flex-direction: column;
+        }  
+
+        .Design-cont {
+            position: absolute;
+            top: 230px;
+            left: 1000px;
+
+            border: 1px solid #ddd;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 5px;
+            background-color: #bcdfff;
+            width: 275px;
+            height: 125px; 
+            display: flex;
+            flex-direction: column;
+        }  
+
+
+    /*SERVICES PAGE*/
+
+
+
+                                        /*PORTFOLIO PAGE*/
+    
+
+    #description {
+        width: 66%;
+        margin-left: 15px;
+        margin-bottom: 50px;
+        font-style: normal;
+        font-size: 22px;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    }
+
+    .portfolio-item {
+        margin-bottom: 30px;
+    }
+
+    .portfolio-item h3 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .portfolio-item p {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .image_gallery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .image_gallery img {
+        width: 20%;
+        height: auto;
+        margin: 10px;
+        border: 1px solid #ccc;
+        padding: 5px;
+        background: #fff;
+    }
+
+    .image-1row {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 20px;
+    }
+
+    .image-1row img {
+        width: 48%;
+        height: auto;
+    }
+
+
+    /*PORTFOLIO PAGE*/

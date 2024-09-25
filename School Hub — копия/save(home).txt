@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+
+<html lang="ua">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Платформа кандидата в учнівські президенти ТЗОШ №28.">
+    <title>Інформаційний портал Марковича Олександра</title>
+    <link rel="stylesheet" href="../CSS/styles.css">
+
+
+</head>
+
+<body>
+
+    <header>
+        <h1>Рішучість. Ідеї. Результат!</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="(home)index.html">Головна</a></li>
+            <li><a href="(about us)index.html">Про мою команду</a></li>
+            <li><a href="(projects)index.html">Проекти</a></li>
+            <li><a href="(calendar)index.html">Графік заходів</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <section id="home">
+            <h2>Головна</h2>
+        </section>
+
+        <section id="description">
+            <p>Ласкаво просимо до BizConsult — вашого надійного партнера у розвитку бізнесу в Україні! Ми спеціалізуємося на наданні якісних консультацій для малих та середніх підприємств, допомагаючи їм успішно впроваджувати стратегії в умовах сучасного ринку. Наші послуги охоплюють усе, що вам потрібно для успішного росту:</p>
+            <ul class="catalog-services">
+                <li><strong>Консультації та стратегічне планування:</strong> Від розробки бізнес-стратегій до оптимізації процесів.</li>
+                <li><strong>Дизайн та реклама:</strong> Створення оригінальних дизайнів оголошень та їх ефективне поширення. Ми допомагаємо вам привертати нових клієнтів і збільшувати обсяги замовлень.</li>
+                <li><strong>Маркетинг та ребрендинг:</strong> Вдосконалення вашого бренду і залучення цільової аудиторії за доступними цінами.</li>
+            </ul>
+            <p>З BizConsult ваш бізнес отримує не лише підтримку, а й реальний зріст прибутковості. Обирайте якість та результативність — обирайте BizConsult для вашого успіху.</p>
+        </section>
+        
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Кампанія на підтримку учнів . Всі права захищені.</p>
+    </footer>
+
+    <div class="image_logo">
+        <img src="/FRONT/Images/28.png" alt="Ours logo">
+    </div>
+
+
+    <a href="https://28.te.ua/">
+        <img src="/FRONT/Images/logo.png" alt="school-logo" class="school_logo">
+    </a>
+    
+
+</body>
+
+</html>
+
+
+
+
+
+
+        <section id="my-team">
+            <h2>Моя Команда</h2>
+            <div class="team-member">
+                <img src="path/to/photo1.jpg" alt="Член команди 1" class="team-photo">
+                <div class="team-info">
+                    <h3>Олександр Маркович</h3>
+                    <p>Посада: Кандидат в президенти</p>
+                    <p>Опис: .</p>
+                </div>
+            </div>
+        
+            <div class="team-member">
+                <img src="path/to/photo2.jpg" alt="Член команди 2" class="team-photo">
+                <div class="team-info">
+                    <h3>Кухта Марина</h3>
+                    <p>Посада: Менеджер</p>
+                    <p>Опис: Коротка інформація про особу, її досвід та внесок у проєкт.</p>
+                </div>
+            </div>
+        
+            <div class="team-member">
+                <img src="path/to/photo3.jpg" alt="Член команди 3" class="team-photo">
+                <div class="team-info">
+                    <h3>Макух Констянтин</h3>
+                    <p>Посада: SMM</p>
+                    <p>Опис: Має досвід в створенні медіа-контенту.</p>
+                </div>
+            </div>      
