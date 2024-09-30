@@ -301,6 +301,113 @@ footer .copyright {
 
         /*HOME PAGE*/
 
+                        /*VIDEO SECTION*/
+
+                        /* Dark blue background and general section styling */
+.bg-dblue {
+    background-color: #0b1141; /* Dark blue color */
+    padding: 60px 0; /* Top and bottom padding */
+    color: white;
+}
+
+/* Center content in the section */
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.d-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Video Slider Styles */
+.video-slider {
+    width: 100%;
+    max-width: 900px; /* Control width of the slider */
+    position: relative;
+}
+
+.swiper-slide {
+    text-align: center;
+    color: #fff;
+}
+
+.swiper-slide img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    margin-bottom: 15px;
+}
+
+/* Video description styling */
+.video-description h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.video-description p {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #bbb; /* Lighter grey for the text */
+}
+
+/* Swiper navigation buttons */
+.swiper-button-next, .swiper-button-prev {
+    color: white;
+    width: 40px;
+    height: 40px;
+}
+
+.swiper-button-next {
+    right: 10px;
+}
+
+.swiper-button-prev {
+    left: 10px;
+}
+
+/* Adjust padding on the inner content */
+.py-6 {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.pt-4 {
+    padding-top: 1.5rem;
+}
+
+/* Responsive styles for mobile */
+@media (max-width: 768px) {
+    .video-slider {
+        max-width: 100%;
+    }
+
+    .swiper-slide img {
+        border-radius: 5px;
+    }
+
+    .video-description h3 {
+        font-size: 16px;
+    }
+
+    .video-description p {
+        font-size: 13px;
+    }
+}
+
+
+
+
+
+
+
+
+
 #description {
     width: 66%;
     margin-left: 15px;
