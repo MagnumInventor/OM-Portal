@@ -400,6 +400,7 @@ footer .copyright {
     }
 }
 
+
 /*BUTTON YT*/
 
 /* YouTube button styling */
@@ -410,7 +411,7 @@ footer .copyright {
 }
 
 .youtube-icon {
-    width: 30px;
+    width: 3px;
     height: auto;
     transition: transform 0.3s ease;
 }
@@ -420,10 +421,6 @@ footer .copyright {
 }
 
 /*BUTTON YT*/
-
-
-
-
 
 
 
