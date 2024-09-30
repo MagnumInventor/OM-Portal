@@ -4,100 +4,6 @@
 
 /* CSS  */
 
-
-
-                /* BASE */
-
-
-                /*body {
-                    
-                    margin: 0;
-                    padding: 0;
-                    height: 1200px;
-
-                    overflow-y: scroll;
-                    
-                    font-family: "Play", sans-serif;
-                    font-weight: 400;
-                    font-style: normal;
-                }
-                
-                header {
-                    background-image: linear-gradient(to bottom, #176ca5, #c8e7ff);
-                    
-                    text-shadow: 5px 5px 6px rgba(0, 0, 0, 0.3);
-                    color: white;
-                    padding: 1rem;
-                    text-align: center;
-                    
-                        font-family: "Comfortaa", sans-serif;
-                        font-optical-sizing: auto;
-                    
-                }
-                
-                nav {
-                    
-                    background-color: #f0f2f3;
-                    overflow: hidden;
-                }
-                
-                nav ul {
-                    list-style-type: none;
-                    margin: 0;
-                    padding: 0;
-                    text-align: center;
-                    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
-
-                    font-family: "Comfortaa", sans-serif;
-                        font-optical-sizing: auto;
-                }
-                
-                nav ul li {
-                    display: inline;
-                }
-                
-                nav ul li a {
-                    display: inline-block;
-                    color: white;
-                    text-align: center;
-                    padding: 14px 20px;
-                    text-decoration: none;
-
-                    font: inherit;
-                    font-size: 17.5px;
-                }
-                
-                nav ul li a:hover {
-                    background-color: #88A9C3;
-                }
-                
-                main {
-                    padding: 20px;
-                }
-                
-                footer {
-                    background-color: #f0f2f3;
-                    color: rgb(2, 8, 20);
-                    text-align: center;
-                    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-                    padding: 1rem;
-                    position: fixed;
-                    width: 100%;
-                    bottom: 0;
-
-                    z-index: 10;
-
-                }
-                
-                #home {
-                    margin-left: 20px;
-                    margin-bottom: 20px;
-                    font-style: normal;
-                    font-size: 30px;
-                } */
-
-
-
             /*TRUMP PATTERN*/
 
 
@@ -313,6 +219,8 @@ footer .copyright {
 /* Center content in the section */
 .container {
     max-width: 1500px;
+    max-height: 385px;
+  
     margin: 0 auto;
     padding: 0 15px;
 }
@@ -403,17 +311,20 @@ footer .copyright {
 
 /*BUTTON YT*/
 
-/* YouTube button styling */
 .youtube-button {
     display: inline-block;
     margin-top: 10px;
     text-align: center;
+    color: #bbb;
+
+    size: 1px;
+    width: 25px;
 }
 
 .youtube-icon {
     width: 3px;
     height: auto;
-    transition: transform 0.3s ease;
+    transition: transform 3s ease;
 }
 
 .youtube-button:hover .youtube-icon {
