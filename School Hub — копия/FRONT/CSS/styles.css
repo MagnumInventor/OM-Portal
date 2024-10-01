@@ -318,7 +318,7 @@ footer .copyright {
     color: #bbb;
 
     size: 1px;
-    width: 25px;
+    width: 30px;
 }
 
 .youtube-icon {
@@ -328,7 +328,7 @@ footer .copyright {
 }
 
 .youtube-button:hover .youtube-icon {
-    transform: scale(1.1);
+    transform: scale(1.2);
 }
 
 /*BUTTON YT*/
