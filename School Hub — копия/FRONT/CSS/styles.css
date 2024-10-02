@@ -234,7 +234,7 @@ footer .copyright {
 .video-slider {
     position: relative;
     width: 100%;
-    max-width: 1000px; /* Control width of the slider */
+    max-width: 1500px; /* Control width of the slider */
 }
 
 .swiper-slide {
