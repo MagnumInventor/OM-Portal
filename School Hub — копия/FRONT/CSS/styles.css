@@ -218,8 +218,8 @@ footer .copyright {
 
 /* Center content in the section */
 .container {
-    max-width: 800px;
-    max-height: 450px;
+    max-width: auto;
+    max-height: auto;
   
     margin: 0 auto;
     padding: 0 15px;
