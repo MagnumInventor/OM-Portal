@@ -224,8 +224,6 @@ footer .copyright {
 
 /* Video Slider Styles */
 .video-slider {
-    width: 100%;
-    max-width: 1000px; /* Control width of the slider */
     position: relative;
 }
 
