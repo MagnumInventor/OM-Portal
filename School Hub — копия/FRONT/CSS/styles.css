@@ -210,6 +210,8 @@ footer .copyright {
 
                         /* Dark blue background and general section styling */
 .bg-dblue {
+    max-width: 2000px;
+    
     background-color: #0b1141; /* Dark blue color */
     padding: 60px 0; /* Top and bottom padding */
     color: white;
@@ -217,7 +219,7 @@ footer .copyright {
 
 /* Center content in the section */
 .container {
-    max-width: auto;
+    max-width: 2000px;
     max-height: auto;
   
     margin: 0 auto;
@@ -234,7 +236,7 @@ footer .copyright {
 .video-slider {
     position: relative;
     width: 100%;
-    max-width: 1500px; /* Control width of the slider */
+    max-width: 2000px; /* Control width of the slider */
 }
 
 .swiper-slide {
