@@ -243,11 +243,13 @@ footer .copyright {
 }
 
 /* Video description styling */
-.video-description h3 {
-    font-size: 18px;
-    font-weight: bold;
-    margin-bottom: 10px;
-}
+.video-description {
+    position: relative; /* Allow z-index to work */
+    z-index: 1; /* Make sure text is above video */
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    color: white; /* Ensure text color is visible */
+    padding: 20px; /* Add some padding around the text */
+    border-radius: 10px; /* Optional: rounded corners */
 
 .video-description p {
     font-size: 14px;
