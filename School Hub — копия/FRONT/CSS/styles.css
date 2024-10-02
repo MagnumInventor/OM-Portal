@@ -240,6 +240,7 @@ footer .copyright {
 .swiper-slide {
     text-align: center;
     color: #fff;
+    margin: auto;
 }
 
 .swiper-slide img {
