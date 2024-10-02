@@ -379,6 +379,8 @@ footer .copyright {
     background-color: #fff; /* Білий фон для секції */
     border-radius: 8px; /* Закруглені кути */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Тінь для глибини */
+
+    position: relative;
 }
 .platform-section h1 {
     text-align: center;
