@@ -308,14 +308,14 @@ footer .copyright {
     }
 }
 
-.slide-wrapper {
+.swiper-wrapper {
             width: 100%;
             max-width: 500px; /* Maximum size of video container */
             padding-bottom: 100%; /* Creates 1:1 aspect ratio */
             position: relative;
 }
 
-.slide-wrapper iframe {
+.swiper-wrapper iframe {
             position: absolute;
             top: 0;
             left: 0;
