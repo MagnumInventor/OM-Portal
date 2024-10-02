@@ -187,13 +187,14 @@ footer .copyright {
                     border-radius: 20px;
                    
                 }
-                .teamphoto {
-                    width: 150px; /* Ширина зображення */
-                    height: 150px; /* Висота зображення */
-                    border-radius: 50%; /* Округлення для створення ефекту аватару */
-                    border: 2px solid #ddd; /* Легка рамка навколо фото */
-                    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Тінь для акценту */
-                    object-fit: cover; /* Збереження пропорцій зображення */
+
+            .teamphoto {
+                width: 150px; /* Ширина зображення */
+                height: 150px; /* Висота зображення */
+                border-radius: 50%; /* Округлення для створення ефекту аватару */
+                border: 2px solid #ddd; /* Легка рамка навколо фото */
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Тінь для акценту */
+                object-fit: cover; /* Збереження пропорцій зображення */
             }
 
 
@@ -232,6 +233,8 @@ footer .copyright {
 /* Video Slider Styles */
 .video-slider {
     position: relative;
+    width: 100%;
+    max-width: 1000px; /* Control width of the slider */
 }
 
 .swiper-slide {
@@ -250,10 +253,10 @@ footer .copyright {
 /* Video description styling */
 .video-description {
     position: relative; /* Allow z-index to work */
-    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
-    color: white; /* Ensure text color is visible */
     padding: 20px; /* Add some padding around the text */
     border-radius: 10px; /* Optional: rounded corners */
+
+    margin-bottom: 10px;
 
 .video-description p {
     font-size: 14px;
