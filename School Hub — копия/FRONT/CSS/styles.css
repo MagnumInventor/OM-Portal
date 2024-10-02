@@ -373,7 +373,7 @@ footer .copyright {
 
 
 .platform-section {
-    max-width: auto; /* Максимальна ширина секції */
+    max-width: 1000px; /* Максимальна ширина секції */
     margin: 20px auto; /* Центрування секції */
     padding: 20px;
     background-color: #fff; /* Білий фон для секції */
@@ -385,12 +385,14 @@ footer .copyright {
     color: #333; /* Колір заголовка */
 }
 .platform-item {
-    margin: 15px 0; /* Відступи між пунктами */
-    padding: 15px;
-    border: 1px solid #ddd; /* Рамка для кожного пункту */
-    border-radius: 5px; /* Закруглені кути для пунктів */
-    transition: background-color 0.3s; /* Плавний перехід */
+    background-color: white; /* Ensure a background color */
+    border: 1px solid #ddd; /* Add a border */
+    padding: 20px; /* Ensure padding */
+    border-radius: 8px; /* Optional rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional shadow */
+    margin-bottom: 20px; /* Add some space between items */
 }
+
 .platform-item:hover {
     background-color: #f1f1f1; /* Колір фону при наведенні */
 }
