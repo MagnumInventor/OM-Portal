@@ -187,7 +187,14 @@ footer .copyright {
                     border-radius: 20px;
                    
                 }
-                
+                            .teamphoto {
+                width: 150px; /* Ширина зображення */
+                height: 150px; /* Висота зображення */
+                border-radius: 50%; /* Округлення для створення ефекту аватару */
+                border: 2px solid #ddd; /* Легка рамка навколо фото */
+                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Тінь для акценту */
+                object-fit: cover; /* Збереження пропорцій зображення */
+            }
 
 
         /* BASE */
@@ -423,17 +430,6 @@ footer .copyright {
         width: 350px;
         height: auto;
         border-radius: 7.5px;
-
-
-                
-            .teamphoto {
-                width: 150px; /* Ширина зображення */
-                height: 150px; /* Висота зображення */
-                border-radius: 50%; /* Округлення для створення ефекту аватару */
-                border: 2px solid #ddd; /* Легка рамка навколо фото */
-                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Тінь для акценту */
-                object-fit: cover; /* Збереження пропорцій зображення */
-            }
 
     }
 
