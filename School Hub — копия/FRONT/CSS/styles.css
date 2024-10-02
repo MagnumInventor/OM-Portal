@@ -299,6 +299,7 @@ footer .copyright {
 
     .swiper-slide img {
         border-radius: 5px;
+        position: relative;
     }
 
     .video-description h3 {
