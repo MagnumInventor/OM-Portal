@@ -255,7 +255,7 @@ footer .copyright {
     position: relative; /* Allow z-index to work */
     padding: 20px; /* Add some padding around the text */
     border-radius: 10px; /* Optional: rounded corners */
-
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
     margin-bottom: 10px;
 
 .video-description p {
