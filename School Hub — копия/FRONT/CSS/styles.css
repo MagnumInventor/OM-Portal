@@ -243,7 +243,6 @@ footer .copyright {
 /* Video description styling */
 .video-description {
     position: relative; /* Allow z-index to work */
-    z-index: 1; /* Make sure text is above video */
     background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
     color: white; /* Ensure text color is visible */
     padding: 20px; /* Add some padding around the text */
