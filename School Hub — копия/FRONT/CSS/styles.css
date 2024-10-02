@@ -258,6 +258,7 @@ footer .copyright {
     border-radius: 10px; /* Optional: rounded corners */
     background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
     margin-bottom: 10px;
+}
 
 .video-description p {
     font-size: 14px;
