@@ -347,7 +347,7 @@ footer .copyright {
             .youtube-icon {
                 width: 50px;
                 height: auto;
-                transition: transform 3s ease;
+                transition: transform 1s ease;
 
                 justify-content: center;
             }
