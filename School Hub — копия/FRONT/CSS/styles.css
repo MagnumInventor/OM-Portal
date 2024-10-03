@@ -198,12 +198,12 @@ footer .copyright {
             }
 
 
-        /* BASE */
-
-
-
-
-
+                    /* BASE */
+            
+            
+            
+            
+            
                     /*HOME PAGE*/
             
                                     /*VIDEO SECTION*/
@@ -217,9 +217,6 @@ footer .copyright {
             
             /* Center content in the section */
             .container {
-                max-width: auto;
-                height: auto;
-              
                 margin: 0 auto;
                 padding: 0 15px;
             }
@@ -234,7 +231,7 @@ footer .copyright {
             .video-slider {
                 position: relative;
                 width: 100%;
-                max-width: 2000px; /* Control width of the slider */
+                max-width: 500px; /* Control width of the slider */
             }
             
             .swiper-slide {
@@ -244,21 +241,23 @@ footer .copyright {
             }
             
             .swiper-slide img {
-                width: 100%;
-                height: auto;
                 border-radius: 10px;
                 box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
                 margin-bottom: 15px;
             }
             
+
             /* Video description styling */
             .video-description {
                 position: relative; 
+                text-align: center;
+
                 padding: 20px; /* Add some padding around the text */
                 border-radius: 10px; /* Optional: rounded corners */
                 background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
                 margin-bottom: 10px;
             }
+
             
             .video-description p {
                 font-size: 14px;
@@ -311,10 +310,11 @@ footer .copyright {
             }
             
             .swiper-wrapper {
-                        width: 100%;
+                        max-height: 500px;
                         max-width: 500px; /* Maximum size of video container */
                         padding-bottom: 100%; /* Creates 1:1 aspect ratio */
                         position: relative;
+                        justify-content: center;
             }
             
             .swiper-wrapper iframe {
@@ -323,6 +323,8 @@ footer .copyright {
                         left: 0;
                         width: 100%;
                         height: 100%;
+
+                        justify-content: center;
             }
             
             
@@ -338,18 +340,21 @@ footer .copyright {
             
                 size: 15px;
                 width: 50px;
+
+                justify-content: center;
             }
             
             .youtube-icon {
                 width: 50px;
                 height: auto;
                 transition: transform 3s ease;
+
+                justify-content: center;
             }
             
             .youtube-button:hover .youtube-icon {
                 transform: scale(1.5);
             }
-            
             /*BUTTON YT*/
             
             
