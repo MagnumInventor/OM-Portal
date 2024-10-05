@@ -450,6 +450,30 @@ footer .copyright {
 
                                         /*SERVICES PAGE*/
 
+
+
+
+
+
+.project-detail-button {
+    width: 50%;
+    margin: 10px;
+
+    background-color: #091235;
+    color: white;
+    padding: 20px 30px;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
     main {
         padding: 20px;
 
