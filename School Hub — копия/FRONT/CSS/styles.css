@@ -453,8 +453,10 @@ footer .copyright {
 
 
 .project-detail-button {
-    width: 40%;
-    margin: 10px;
+    width: 50px;
+    height: 100px;
+            
+    margin-top: 10px;
 
     background-color: #091235;
     color: white;
@@ -462,7 +464,7 @@ footer .copyright {
     font-size: 1.2rem;
     text-transform: uppercase;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 7px;
 }
 
 
