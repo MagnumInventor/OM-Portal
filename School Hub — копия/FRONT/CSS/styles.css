@@ -122,8 +122,7 @@ p {
 
 .cta-button-div {
     width: 60%;
-
-    justify-content: center;
+    margin-left: 37%; 
 }
 
 .cta-button:hover {
