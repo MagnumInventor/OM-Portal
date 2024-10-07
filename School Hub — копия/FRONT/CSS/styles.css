@@ -395,6 +395,8 @@ footer .copyright {
                 border: 1px solid #ddd; /* Рамка для кожного пункту */
                 border-radius: 5px; /* Закруглені кути для пунктів */
                 transition: background-color 0.3s; /* Плавний перехід */
+
+                text-align: center;
             }
             .platform-item:hover {
                 background-color: #f1f1f1; /* Колір фону при наведенні */
@@ -406,6 +408,7 @@ footer .copyright {
             .platform-item p {
                 margin: 5px 0 0; /* Відступи для тексту пункту */
                 color: #666; /* Колір тексту */
+                text-align: center;
             }
 
     /*HOME PAGE*/
