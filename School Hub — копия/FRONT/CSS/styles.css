@@ -215,13 +215,16 @@ footer .copyright {
     height: 575px;
 
     justify-content: center;
+    
   }
 
   .container {
     margin-top: 30px;
     padding: 15px;
+    
+    display: inline-block;  
     justify-content: center;
-              
+    margin-left: auto;
   }
 
   .carousel-container {
