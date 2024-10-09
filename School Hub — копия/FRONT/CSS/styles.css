@@ -207,7 +207,13 @@ footer .copyright {
                     /*HOME PAGE*/
             
                                     /*VIDEO SECTION*/
-            
+ .bg-dblue {
+    background-color: #0b1141; /* Dark blue color */
+    padding: 60px 0; /* Top and bottom padding */
+    color: white;
+  }
+
+
   .carousel-container {
     position: relative;
     width: 80%;
