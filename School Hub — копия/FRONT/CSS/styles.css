@@ -212,7 +212,7 @@ footer .copyright {
     padding: 60px 0; /* Top and bottom padding */
     color: white;
 
-    height: 650px;
+    height: 575px;
 
     justify-content: center;
   }
@@ -263,7 +263,8 @@ footer .copyright {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    
+
+    border: none;
     color: white;
     background-color: rgba(0,0,0,0.5);
     padding: 10px;
