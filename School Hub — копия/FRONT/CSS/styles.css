@@ -218,6 +218,11 @@ footer .copyright {
     justify-content: center;
   }
 
+  .container {
+    margin: 0 auto;
+    padding: 0 15px;
+    justify-content: center;
+  }
 
   .carousel-container {
     justify-content: center;
