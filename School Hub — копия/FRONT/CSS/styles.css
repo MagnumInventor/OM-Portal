@@ -211,10 +211,17 @@ footer .copyright {
     background-color: #0b1141; /* Dark blue color */
     padding: 60px 0; /* Top and bottom padding */
     color: white;
+
+    height: 750px;
+    max-width: 1500px;
+
+    justify-content: center;
   }
 
 
   .carousel-container {
+    justify-content: center;
+              
     position: relative;
     width: 80%;
     max-width: 1000px;
@@ -251,11 +258,15 @@ footer .copyright {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background-color: rgba(0,0,0,0.5);
+    
     color: white;
-    border: none;
+    
     padding: 10px;
     cursor: pointer;
+
+    border-radius: 2px;
+    width: 40px;
+    height: 60px;
   }
   
   .prev {
