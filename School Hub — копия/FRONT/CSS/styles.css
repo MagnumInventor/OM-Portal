@@ -208,45 +208,58 @@ footer .copyright {
             
                                     /*VIDEO SECTION*/
             
-                                    /* Dark blue background and general section styling */
-            .bg-dblue {
-                background-color: #0b1141; /* Dark blue color */
-                padding: 60px 0; /* Top and bottom padding */
-                color: white;
-            }
-            
-            /* Center content in the section */
-            .container {
-                margin: 0 auto;
-                padding: 0 15px;
-            }
-            
-            .d-flex {
-                display: flex;
-                align-items: center;
-                justify-content: center;
-            }
-            
-            /* Video Slider Styles */
-            .video-slider {
-                position: relative;
-                width: 100%;
-                max-width: 500px; /* Control width of the slider */
-            }
-            
-            .swiper-slide {
-                text-align: center;
-                color: #fff;
-                margin: bottom;
-            }
-            
-            .swiper-slide img {
-                border-radius: 10px;
-                box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-                margin-bottom: 15px;
-            }
-            
-
+  .carousel-container {
+    position: relative;
+    width: 80%;
+    max-width: 1000px;
+    perspective: 1000px;
+  }
+  
+  .carousel {
+    display: flex;
+    justify-content: center;
+    transform-style: preserve-3d;
+    transform: translateZ(-250px) rotateY(0deg);
+    transition: transform 0.5s ease-in-out;
+  }
+  
+  .carousel-item {
+    width: 300px;
+    height: 200px;
+    margin: 0 15px;
+    transition: transform 0.5s ease;
+    transform-origin: center;
+  }
+  
+  .carousel-item iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+  }
+  
+  .carousel-item:nth-child(2) {
+    transform: scale(1.5);
+  }
+  
+  .prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .prev {
+    left: 10px;
+  }
+  
+  .next {
+    right: 10px;
+  }
+           
             /* Video description styling */
             .video-description {
                 position: relative; 
@@ -308,27 +321,6 @@ footer .copyright {
                     font-size: 13px;
                 }
             }
-            
-            .swiper-wrapper {
-                        max-height: 500px;
-                        max-width: 500px; /* Maximum size of video container */
-                        padding-bottom: 100%; /* Creates 1:1 aspect ratio */
-                        position: relative;
-                        justify-content: center;
-            }
-            
-            .swiper-wrapper iframe {
-                        position: absolute;
-                        top: 0;
-                        left: 0;
-                        width: 100%;
-                        height: 100%;
-
-                        justify-content: center;
-            }
-            
-            
-            
             
             /*BUTTON YT*/
             
