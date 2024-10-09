@@ -212,16 +212,16 @@ footer .copyright {
     padding: 60px 0; /* Top and bottom padding */
     color: white;
 
-    height: 750px;
-    width: 1300px;
+    height: 450px;
 
     justify-content: center;
   }
 
   .container {
-    margin: 0 auto;
-    padding: 0 15px;
+    margin-top: 30px;
+    padding: 15px;
     justify-content: center;
+              
   }
 
   .carousel-container {
@@ -265,7 +265,7 @@ footer .copyright {
     transform: translateY(-50%);
     
     color: white;
-    
+    background-color: rgba(0,0,0,0.5);
     padding: 10px;
     cursor: pointer;
 
@@ -284,6 +284,7 @@ footer .copyright {
            
             /* Video description styling */
             .video-description {
+                margin-top: 130px;
                 position: relative; 
                 text-align: center;
 
