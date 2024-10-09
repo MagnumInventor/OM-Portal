@@ -222,7 +222,6 @@ footer .copyright {
     margin-top: 30px;
     padding: 15px;
     
-    display: inline-block;  
     justify-content: center;
     margin-left: auto;
   }
@@ -231,7 +230,7 @@ footer .copyright {
     justify-content: center;
               
     position: relative;
-    width: 80%;
+    width: 70%;
     max-width: 1000px;
     perspective: 1000px;
 
