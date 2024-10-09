@@ -231,6 +231,8 @@ footer .copyright {
     width: 80%;
     max-width: 1000px;
     perspective: 1000px;
+
+    margin-left: 100px;
   }
   
   .carousel {
