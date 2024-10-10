@@ -477,11 +477,23 @@ footer .copyright {
         font-size: 1.2rem;
         colour: white;
         background-color: #ff0000;
+        color: white; /* білий колір тексту */
+        text-shadow: 
+        1px 1px 2px white,   /* заокруглений білий край справа та знизу */
+        -1px -1px 2px white, /* заокруглений білий край зліва та зверху */
+        1px -1px 2px white,  /* заокруглений білий край справа та зверху */
+        -1px 1px 2px white;  /* заокруглений білий край зліва та знизу */
 }
 .approved {
         font-size: 1.2rem;
         colour: white;
         background-color: #17d736;
+            color: white; /* білий колір тексту */
+    text-shadow: 
+        1px 1px 2px white,   /* заокруглений білий край справа та знизу */
+        -1px -1px 2px white, /* заокруглений білий край зліва та зверху */
+        1px -1px 2px white,  /* заокруглений білий край справа та зверху */
+        -1px 1px 2px white;  /* заокруглений білий край зліва та знизу */
 }
 
 .project-detail-button {
