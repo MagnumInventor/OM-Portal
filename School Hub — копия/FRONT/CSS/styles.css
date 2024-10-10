@@ -473,6 +473,12 @@ footer .copyright {
                                         /*SERVICES PAGE*/
 
 
+.canseled {
+        font-size: 1.2rem;
+        colour: white;
+        background-color: #ff0000;
+}
+
 
 .project-detail-button {
     width: 50px;
