@@ -472,6 +472,14 @@ footer .copyright {
 
                                         /*SERVICES PAGE*/
 
+.actual-projects {
+            background-color: light green;
+}
+
+.canseled-projects {
+            background-color: light red;
+}
+
 
 .canseled {
         font-size: 1.2rem;
