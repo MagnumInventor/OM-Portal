@@ -473,18 +473,18 @@ footer .copyright {
                                         /*SERVICES PAGE*/
 
 .actual-projects {
-            background-color: light green;
+            background-color: #81dd85;
 }
 
 .canseled-projects {
-            background-color: light red;
+            background-color: #ffa0a0;
 }
 
 
 .canseled {
         font-size: 1.2rem;
         
-        background-color: light red;
+        background-color: #ffa0a0;
         border-radius: 15px; /* Заокруглення кутів */
             
         color: white; /* білий колір тексту */
@@ -498,7 +498,7 @@ footer .copyright {
         font-size: 1.2rem;
         colour: white;
   
-        background-color: light green;
+        background-color: #81dd85;
         border-radius: 15px; /* Заокруглення кутів */
             
     text-shadow: 
